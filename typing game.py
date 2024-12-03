@@ -16,7 +16,7 @@ elif funbox == 'bigram salad':
     words = ['am','an','as','at','be','by','do','eh','ex','go','he','in','is','it','me','my','no','of','oh','on','ox','so','to','uh','up','us']
 elif funbox == 'wikipedia tags':
     words = ['[citation needed]','[clarification needed]','[better source needed]','[by whom?]','[which?]']
-elif funbox = 'weakspot':
+elif funbox == 'weakspot':
     words = ['be','become','between','because','my','after','before','people','number','both','develop','increase','public','problem','progream']
 wordLimit = 10;
 goal = 51200;
