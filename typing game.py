@@ -35,7 +35,7 @@ while points >= 0 and points < goal:
         word = words[random.randint(0, len(words)-1)];
         while word == lastWord:
             word = words[random.randint(0, len(words)-1)];
-        if funbox == 'nospace':
+        if funbox == 'nospace' or funbox == 'binary':
             text = text + word;
         else:
             text = text + ' ' + word;
