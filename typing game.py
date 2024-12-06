@@ -20,7 +20,7 @@ elif funbox == 'weakspot':
     words = ['be','become','between','because','my','after','before','people','number','both','develop','increase','public','problem','program']
 elif funbox == 'wikipedia':
     words = ["Girls typically have a female reproductive system. Some intersex children with ambiguous genitals may be classified as girls, while some Transgender youth have a gender identity as girls.[28][29][30][page needed][better source needed]","A special case presents with choirs and choruses, especially in the tradition of the choir school which uses ensemble and musical discipline to ground academic discipline. Male and female voices are distinctive both solo and in ensemble, and segregated singing has an evolved and established aesthetic. Male voices, unlike female voices, break in early adolescence, and accommodating this break in an educational program is challenging in a coed environment. Coeducation tends to stigmatize males, as is often the case in expressive arts, unlike athletics.[citation needed]","The goal of the declaration is to encourage countries to work alongside indigenous peoples to solve global issues, such as development, multicultural democracy, and decentralization.[4]"]
-elif funbox = '58008':
+elif funbox == '58008':
     words = ['0','1','2','3','4','5','6','7','8','9']
 wordLimit = 10;
 if funbox == 'wikipedia':
