@@ -66,9 +66,15 @@ while points >= 0 and points < goal:
     if points > currentGoal:
         currentGoal = currentGoal * 2
         wordLimit = wordLimit + 1;
-        print('You have ' + str(points) + ' points. Goal reached! Next goal: ' + str(currentGoal) + ' points')
+        if currentGoal < goal:
+            print('You have ' + str(points) + ' points. Goal reached! Next goal: ' + str(currentGoal) + ' points')
+        else:
+            print('You have ' + str(points) + ' points. Goal reached! Last goal: ' + str(currentGoal) + ' points!')
     else:
-        print('You have ' + str(points) + ' points. Current goal: ' + str(currentGoal) + '.')
+        if currentGoal < goal:
+            print('You have ' + str(points) + ' points. Current goal: ' + str(currentGoal) + '.')
+        else:
+            print('You have ' + str(points) + ' points. Last goal: ' + str(currentGoal) + '!')
     
 if points > 0:
     print('You win!')
