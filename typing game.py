@@ -1,5 +1,5 @@
 import random;
-points = 0;g
+points = 0;
 text = '';
 typedText = '';
 word = '';
