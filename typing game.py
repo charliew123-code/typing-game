@@ -1,7 +1,7 @@
-asdfjkl;drsdimport random;
+import random;
 points = 0;g
 text = '';
-dsffdetgsyrtsryetbbhgtdfhhtybdrfhg dfnhrtbyeytypedText = '';
+typedText = '';
 word = '';
 lastWord = '';
 numOfWords = 0;
