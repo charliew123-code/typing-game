@@ -46,7 +46,11 @@ while points >= 0 and points < goal:
                 text = text + ' ' + word;
             else:
                 text = text + word;
-        elif funbox == 'asdflja;lsdfjkasjdkfl
+        elif funbox == 'morse':
+            if random.randint(0,100) < 10:
+                text = text + ' ' + word;
+            else:
+                text = text + word;
         else:
             text = text + ' ' + word;
         numOfWords = numOfWords + 1;
